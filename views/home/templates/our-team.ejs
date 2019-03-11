@@ -1,10 +1,23 @@
-<section class="section overflow-hidden team-member" id="section-team" style="background-image: url(public/images/startup-photos2.jpg)" data-overlay="4">
+<style>
+  .btn-main{
+    background: #3a2c5b !important;
+    border: none !important;
+  }
+
+  body { padding-right: 0 !important }
+
+  .modal-ku {
+    width: 750px;
+    margin: auto;
+  }
+</style>
+
+<section class="section overflow-hidden team-member" id="section-team" style="background-image: url(public/images/startup-photos2.jpg)" data-overlay="7">
     <div class="container pb-40">
         <div class="row">
             <div class="col-12 col-md-8 offset-lg-2">
-                <h2 class="text-center text-white">INDIVIDUAL TEAM MEMBERS 
-                <hr class="w-50 hidden-sm-down"></h2>
-                <h3 class="text-center text-white" style="color:#4f4f4f;">Our team is composed of professional<br> Web Deveopers, UI/UX Designers and Video Editors.</h3>
+                <h2 class="text-center text-white">INDIVIDUAL TEAM <span class="text-warning">MEMBERS</span> 
+                <h5 class="text-center text-white" style="color:#4f4f4f;">Our team is composed of professional Web Developers, <br>UI/UX Designers and Video Editors.</h5>
             </div>
         </div>
 
@@ -14,9 +27,9 @@
             <div class="col-md-4 box text-center py-20" data-aos="fade-up" data-aos-duration="700">
                 <div class="card card-hover-shadow">
                     <div class="card-block">
-                        <a href="#">
+                        <a href="#" data-toggle="modal" data-target="#aboutSherwin">
                             <img src="/public/images/Developer1.jpg" class="img-fluid img-thumbnail" style="width: 90%;">
-                            <h4 class="card-title text-danger" style="margin-top: 20px; margin-bottom: 0;">Web Developer <br> <span class="text-dark">Sherwin Dapito.</span></h4>
+                            <h4 class="card-title text-gray-dark" style="margin-top: 20px; margin-bottom: 0;">Web Developer <br> <span class="text-dark fs-20 ">Sherwin Dapito</span></h4>
                             <br>
                             <h5 class="card-title text-dark">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</h5>
                         </a>
@@ -27,9 +40,9 @@
             <div class="col-md-4 box text-center py-20" data-aos="fade-up" data-aos-duration="1000">
                 <div class="card card-hover-shadow">
                     <div class="card-block">
-                        <a href="#">
+                        <a href="#" data-toggle="modal" data-target="#aboutJM">
                             <img src="/public/images/Developer2.jpg" class="img-fluid img-thumbnail" style="width: 90%;">
-                            <h4 class="card-title text-danger" style="margin-top: 20px; margin-bottom: 0;">UI/UX Designer <br> <span class="text-dark">John Mark Obciana.</span></h4><br>
+                            <h4 class="card-title text-gray-dark" style="margin-top: 20px; margin-bottom: 0;">UI/UX Designer <br> <span class="text-dark fs-20 ">John Mark Obciana</span></h4><br>
                             <h5 class="card-title text-dark">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</h5>
                         </a>
                     </div>
@@ -39,9 +52,9 @@
             <div class="col-md-4 box text-center py-20" data-aos="fade-up" data-aos-duration="1300">
                 <div class="card card-hover-shadow">
                     <div class="card-block">
-                        <a href="#">
+                        <a href="#" data-toggle="modal" data-target="#aboutJJ">
                             <img src="/public/images/Developer3.jpg" class="img-fluid img-thumbnail" style="width: 90%;">
-                            <h4 class="card-title text-danger" style="margin-top: 20px; margin-bottom: 0;">Video Editor and Marketing  <br> <span class="text-dark">Jan Joseph Yerro.</span></h4><br>
+                            <h4 class="card-title text-gray-dark" style="margin-top: 20px; margin-bottom: 0;">Video Editor and Marketing  <br> <span class="text-dark fs-20 ">Jan Joseph Yerro</span></h4><br>
                             <h5 class="card-title text-dark">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</h5>
                         </a>
                     </div>
@@ -50,10 +63,53 @@
         </div>
     </div>
 
-    <br>
-    <div class="col-md-12 text-center" style="margin-top: 40px">      
-        <a href="#" data-scrollto="section-services" class="btn btn-round btn-danger">
-            View Our Services
-        </a>
-    </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="aboutSherwin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">About Sherwin</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="aboutJM" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">About John Mark</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="aboutJJ" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">About Jan Joseph</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div>

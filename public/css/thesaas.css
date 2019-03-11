@@ -28,7 +28,13 @@ textarea {
 }
 
 .text-gray-dark{
-	color: #2a9382 !important;
+	text-shadow: 6px 6px 19px rgba(28,110,164,0.2) !important;
+  	color: #2A9382 !important;
+}
+
+.text-shadow-team{
+  	text-shadow: 6px 6px 19px rgba(28,110,164,0.2) !important;
+  	color: #2A9382 !important;
 }
 
 a {

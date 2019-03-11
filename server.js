@@ -44,7 +44,7 @@ app.use(methodOverride('_method'));
 app.set('view engine', 'ejs'); ///Set the view engine to EJS
 app.set('views', __dirname + '/views'); ///Set the views directory
 app.use(express.static(__dirname));
-//app.use(favicon(__dirname + '/public/images/entrenami-logo-cut.ico'));
+app.use(favicon(__dirname + '/public/images/favicon.ico'));
 
 // Get the bootstrap, jquery, and font-awesome inside the node_module 
 app.use('/js'     , express.static(__dirname + '/node_modules/bootstrap/dist/js'));
