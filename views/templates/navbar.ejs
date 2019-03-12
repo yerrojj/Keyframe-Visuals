@@ -70,18 +70,25 @@
 <nav class="topbar topbar-inverse topbar-expand-sm topbar-sticky py-50" id="home">
   <div class="container-fluid px-0">
     <div class="row h-full" style="width: 100%;">
-      <div class="col-10 col-md-4 align-self-center">
-        <button class="topbar-toggler" aria-label="Toggle navigation">
+      <div class="col-12 col-md-4 pt-20 align-self-center hidden-md-up">
+        <button class="topbar-toggler float-right" style="margin-left: 20px !important;" aria-label="Toggle navigation">
         &#9776;
         </button>
-        <a class="navbar-brand hidden-sm-down" href="#" data-scrollto="home">
+        <a class="topbar-brand" href="/">
+          <img class="logo-default" src="/public/images/logo-ex-6.png" alt="logo" width="20%">
+          <strong> Keyframe <span class="text-danger">Visuals</span></strong>
+        </a>
+        
+      </div>
+
+      <div class="col-12 col-md-4 align-self-center hidden-sm-down">
+        <a class="navbar-brand" href="#" data-scrollto="home">
           <div><img class="logo-default" src="/public/images/logo-ex-6.png" alt="logo" width="100px"><strong> Keyframe <span class="text-danger">Visuals</span></strong></div>
         </a> 
-   
       </div>
 
       <!-- NAVBAR ITEMS FOR MEDIUM SCREEN SIZE DEVICE -->
-      <div class="col-1 col-md-8 text-md-center"">
+      <div class="col-1 col-md-8 text-md-right"">
         <ul class="topbar-nav topbar-nav__main nav fs-13 pt-30">
           <li class="nav-item"><a class="hvr-hang nav-link text-dark hvr-underline-from-left" href="#" data-scrollto="section-content"> WHY CHOOSE US?<!-- FITNESS OPTIONS--> </a></li>
           <li class="nav-item"><a class="hvr-hang nav-link text-dark hvr-underline-from-left" href="#" data-scrollto="section-services">OUR SERVICES</a></li> 
@@ -106,7 +113,7 @@
             <a class="social nav-link hvr-hang text-primary" href=""><i class="fa fa-instagram"></i></a>
           </li>
 
-          <li class="nav-item d-lg-none d-none d-sm-block d-md-block d-block social-min">
+          <li class="nav-item d-lg-none d-none d-sm-block d-md-none d-block social-min">
             <hr>
             <a href="https://www.facebook.com/sherwin.dapito" target="_blank"><i class="fa fa-facebook"></i></a>
             <a href="https://github.com/sarwin-github" target="_blank"><i class="fa fa-twitter"></i></a>
