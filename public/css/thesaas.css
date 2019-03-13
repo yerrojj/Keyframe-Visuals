@@ -32,6 +32,12 @@ textarea {
   	color: #2A9382 !important;
 }
 
+.bg-gray-dark{
+	text-shadow: 6px 6px 19px rgba(28,110,164,0.2) !important;
+  	background: #2A9382 !important;
+  	color: white !important;
+}
+
 .text-shadow-team{
   	text-shadow: 6px 6px 19px rgba(28,110,164,0.2) !important;
   	color: #2A9382 !important;
