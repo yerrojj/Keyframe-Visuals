@@ -34,8 +34,23 @@ textarea {
 
 .bg-gray-dark{
 	text-shadow: 6px 6px 19px rgba(28,110,164,0.2) !important;
-  	background: #2A9382 !important;
+  	background: #3a2c5b !important;
   	color: white !important;
+}
+
+.btn-main{
+	background: #3a2c5b !important;
+}
+
+.close{
+	cursor: pointer !important;
+	color: white !important;
+}
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
 }
 
 .text-shadow-team{
