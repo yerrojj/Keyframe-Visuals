@@ -5213,7 +5213,7 @@ ul.flexbox {
 }
 
 .topbar.topbar-inverse .topbar-brand .logo-default {
-	display: none
+	display: inline-block !important;
 }
 
 .topbar.topbar-inverse .topbar-brand .logo-inverse {
@@ -5408,10 +5408,10 @@ ul.flexbox {
 }
 
 @media (max-width: 991px) {
-	.topbar-expand-md.topbar-inverse .topbar-nav>.nav-item>.nav-link {
+	.topbar-expand-sm.topbar-inverse .topbar-nav>.nav-item>.nav-link {
 		color: #535353
 	}
-	.topbar-expand-md .topbar-nav {
+	.topbar-expand-sm .topbar-nav {
 		flex-direction: column;
 		flex-wrap: nowrap;
 		position: fixed;
@@ -5425,32 +5425,32 @@ ul.flexbox {
 		padding: 30px;
 		transition: .3s
 	}
-	.topbar-expand-md .topbar-nav .nav-item {
+	.topbar-expand-sm .topbar-nav .nav-item {
 		flex-direction: column;
 		align-items: flex-start;
 		flex-shrink: 0;
 		line-height: 2.5;
 		margin-bottom: 16px
 	}
-	.topbar-expand-md .topbar-nav .nav-item:hover .nav-submenu {
+	.topbar-expand-sm .topbar-nav .nav-item:hover .nav-submenu {
 		transform: translate(0, 0)
 	}
-	.topbar-expand-md .topbar-nav .nav-item+.nav-item {
+	.topbar-expand-sm .topbar-nav .nav-item+.nav-item {
 		margin-left: 0
 	}
-	.topbar-expand-md .topbar-nav .nav-link {
+	.topbar-expand-sm .topbar-nav .nav-link {
 		font-weight: 600;
 		opacity: 1;
 		width: 100%;
 		color: #535353
 	}
-	.topbar-expand-md .topbar-nav .nav-link.active {
+	.topbar-expand-sm .topbar-nav .nav-link.active {
 		color: #02b2e2
 	}
-	.topbar-expand-md .topbar-nav .nav-link.active+.nav-submenu {
+	.topbar-expand-sm .topbar-nav .nav-link.active+.nav-submenu {
 		display: block
 	}
-	.topbar-expand-md .nav-submenu {
+	.topbar-expand-sm .nav-submenu {
 		position: static;
 		min-width: 100%;
 		box-shadow: none;
@@ -5460,24 +5460,24 @@ ul.flexbox {
 		transition: none;
 		display: none
 	}
-	.topbar-expand-md .nav-submenu.cols-2 {
+	.topbar-expand-sm .nav-submenu.cols-2 {
 		width: 200px
 	}
-	.topbar-expand-md .nav-submenu .nav-link {
+	.topbar-expand-sm .nav-submenu .nav-link {
 		font-weight: 400
 	}
-	.topbar-expand-md .nav-submenu .nav-item {
+	.topbar-expand-sm .nav-submenu .nav-item {
 		margin-bottom: 0
 	}
-	.topbar-expand-md .nav-submenu .nav-item i {
+	.topbar-expand-sm .nav-submenu .nav-item i {
 		float: none;
 		margin-left: 4px;
 		transform: rotate(90deg)
 	}
-	.topbar-expand-md .nav-link.active {
+	.topbar-expand-sm .nav-link.active {
 		color: #02b2e2
 	}
-	.topbar-expand-md .topbar-toggler {
+	.topbar-expand-sm .topbar-toggler {
 		display: inline-block
 	}
 }
