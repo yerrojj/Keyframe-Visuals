@@ -181,7 +181,7 @@ html {
 
 body {
 	margin: 0;
-	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Lato, "Helvetica Neue", Arial, sans-serif;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Dosis, "Helvetica Neue", Arial, sans-serif;
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
@@ -5613,7 +5613,7 @@ button.list-group-item-danger.active {
 
 .popover,
 .tooltip {
-	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Dosis, "Helvetica Neue", Arial, sans-serif;
 	font-style: normal;
 	letter-spacing: normal;
 	line-break: auto;

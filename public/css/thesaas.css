@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800|Lato:300,600");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800|Dosis:300,600");
 body {
 	font-family: "Open Sans", sans-serif;
 	color: #535353;
@@ -45,6 +45,10 @@ textarea {
 .close{
 	cursor: pointer !important;
 	color: white !important;
+}
+
+.text-header-main{
+	color: #3a2c5b !important;
 }
 
 .equal {
@@ -228,7 +232,7 @@ h6,
 	content: '“';
 	display: block;
 	font-size: 9rem;
-	font-family: Georgia, Verdana, Roboto, Serif;
+	font-family: Georgia, Verdana, Dosis, Serif;
 	line-height: .2;
 	font-weight: 600;
 	padding-top: 4rem;
