@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+    <title><%= locals.title %></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Keyframe Visuals">
+    <meta name="keywords" content="Keyframe Visuals">
+    <link href="/public/css/core.min.css" rel="stylesheet">
+    <link href="/public/css/thesaas.css" rel="stylesheet">
+    <link href="/public/css/styles.css" rel="stylesheet">
+    <link href="/css/hover.css" rel="stylesheet">
+    <link href="/css/aos.css" rel="stylesheet">
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/aos.js"></script>
+</head>
+<body>
+<div class="container-fluid" style="padding:0px;">
+    <header class="header header-inverse main-header prof-header hidden-sm-down" 
+        style="background: rgba(255,255,255,0.9); 
+        background-image: url(/public/images/header.png), url(/public/images/white2.png);
+        background-size: cover;                     
+        background-repeat:   no-repeat;
+        background-position: center;   
+        z-index: 9;
+        ">
+        <!--, url(/public/images/white.jpg)
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+            clip-path: polygon(0 35%, 100% 0, 100% 95%, 0 100%);
+        -->
+        <div class="container-fluid text-left py-80" data-aos="fade-up" data-aos-duration="700">
+            <div class="row h-full">
+                <div class="col-5 align-self-left pl-120" style="position: relative; top: -50px !important;">
+                    <h2 class="fs-70 fw-600 text-header-main">We <strong>Bring</strong> Your</h2>
+                    <h2 class="fs-70 text-header-main">Vision to <span class="text-warning">Life</span></h2>
+                    <h3 class="fs-22 text-light pt-md-2">
+                        We are a creative group of people who design influential brands and digital experiences. We also provide business solution to your web related problems.
+                    </h3>
+                    <br>
+                    
+                    <div style="z-index: 999999999 !important; position: relative;">
+                        <a class="btn btn-lg btn-danger hvr-hang" href="#" style="border-radius: 0px; " data-scrollto="section-content">About Us <span class="fa fa-arrow-right"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header class="header header-inverse main-header prof-header hidden-md-up" style="background: url(/public/images/header.png) no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;">
+
+            <div  style="background-color: #ffffff !important; position: absolute !important; height: 100%; top: 0; right: 0; bottom: 0; left: 0; opacity: 0.9; "></div>
+        <!---->
+        <div class="container text-center" id="home">
+
+            <div class="row h-full">
+                <div class="col-12 text-left px-30">
+
+                    <h2 class="fs-45 text-header-main">We <strong>Bring</strong> Your</h2>
+                    <h2 class="fs-45 text-header-main">Vision <strong>to</strong> <strong class="text-warning">Life</strong></h2>
+                    <h1 class="fs-18 text-light">
+                        We are a creative group of people who design influential brands and digital experiences. We also provide business solution to your web related problems.
+                    </h1><br>
+                    <br>
+
+                    <div style="z-index: 999999999 !important; position: relative;">
+
+                        <a class="btn btn-lg btn-danger" href="#" style="border-radius: 0px; " data-scrollto="section-content">About Us <span class="fa fa-arrow-right"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- THIS IS THE NAVBAR -->
+    <%- include("../templates/navbar.ejs") %>
+
+    <section class="section overflow-hidden" id="section-services">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h5 class="text-uppercase">Our Blogs</h5>
+                    <h2 class="text-uppercase text-gray-dark">Our Blogs and Articles</h2>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+</div>
+<%- include("../templates/footer.ejs") %>
+<script src="/public/javascript/core.min.js"></script>
+<script src="/public/javascript/thesaas.min.js"></script>
+</body>
+</html>
