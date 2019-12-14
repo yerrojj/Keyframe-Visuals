@@ -32,7 +32,28 @@ jobs:
             - node_modules
           key: v2-dependencies-{{ checksum "package.json" }}
 
-      # build
-      - run:
-          name: test run app
-          command: 'npm run-script start'
+  # build
+  deploy:
+      machine:
+          enabled: true
+      working_directory: ~/keyframevisuals
+      environment:
+        HEROKU_APP: "keyframevisuals"
+      steps:
+        - checkout
+        - run:
+            name: Deploy Master to Heroku
+            command: |
+              git push https://keyframevisuals@bitbucket.org/keyframevisuals/keyframevisuals.git master
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+#          filters:
+#            branches:
+#              only: master
