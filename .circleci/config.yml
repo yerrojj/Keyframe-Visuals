@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: debian:stretch
 
-    working_directory: ~/
+    working_directory: ~/keyframevisuals
 
     steps:
       - checkout
