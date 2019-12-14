@@ -12,7 +12,7 @@ jobs:
 
       - run:
           name: Greeting
-          command: echo Hello, world.
+          command: echo Hello, we are now doing CI tests.
 
       - run:
           name: Print the Current Time
@@ -31,3 +31,8 @@ jobs:
           paths:
             - node_modules
           key: v2-dependencies-{{ checksum "package.json" }}
+
+      # build
+      - run:
+          name: test run app
+          command: 'npm run-script start'
