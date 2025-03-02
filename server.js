@@ -4,7 +4,16 @@
 const express        = require('express');
 const app            = express();
 const http           = require('http').Server(app);
-const session        = require('express-session');
+require('dotenv').config(); // Ensure dotenv is loaded
+
+const session = require('express-session');
+
+app.use(session({
+  secret: process.env.SESSION_SECRET || 'fallbackSecretKey', // Use .env or default
+  resave: false,
+  saveUninitialized: true
+}));
+
 const validator      = require('express-validator');
 const bodyParser     = require('body-parser');
 const cookieParser   = require('cookie-parser');
